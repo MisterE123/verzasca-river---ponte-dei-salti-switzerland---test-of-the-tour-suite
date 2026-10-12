@@ -1,0 +1,301 @@
+{
+  "performance": {
+    "defaultPresetId": "balanced",
+    "defaultSettings": {
+      "pagedExtSplats": true,
+      "pixelRatio": 1.5,
+      "lodSplatCount": 0,
+      "lodSplatScale": 1,
+      "lodRenderScale": 1,
+      "maxSh": 3,
+      "minSortIntervalMs": 0,
+      "sortRadial": true,
+      "minPixelRadius": 0,
+      "maxPixelRadius": 512,
+      "maxStdDev": 2.8284271247461903,
+      "minAlpha": 0.00196078431372549,
+      "coneFov0": 90,
+      "coneFov": 120,
+      "coneFoveate": 0.4,
+      "behindFoveate": 0.2,
+      "xrFoveation": 1
+    },
+    "presets": [
+      {
+        "id": "balanced",
+        "name": "Balanced",
+        "settings": {
+          "pagedExtSplats": false,
+          "pixelRatio": 1.5,
+          "lodSplatCount": 0,
+          "lodSplatScale": 1,
+          "lodRenderScale": 1,
+          "maxSh": 3,
+          "minSortIntervalMs": 0,
+          "sortRadial": true,
+          "minPixelRadius": 0,
+          "maxPixelRadius": 512,
+          "maxStdDev": 2.8284271247461903,
+          "minAlpha": 0.00196078431372549,
+          "coneFov0": 90,
+          "coneFov": 120,
+          "coneFoveate": 0.4,
+          "behindFoveate": 0.2,
+          "xrFoveation": 1
+        }
+      },
+      {
+        "id": "light",
+        "name": "Lightweight",
+        "settings": {
+          "pagedExtSplats": false,
+          "pixelRatio": 1,
+          "lodSplatCount": 0,
+          "lodSplatScale": 0.5,
+          "lodRenderScale": 2,
+          "maxSh": 1,
+          "minSortIntervalMs": 16,
+          "sortRadial": true,
+          "minPixelRadius": 0,
+          "maxPixelRadius": 512,
+          "maxStdDev": 2.8284271247461903,
+          "minAlpha": 0.00196078431372549,
+          "coneFov0": 90,
+          "coneFov": 120,
+          "coneFoveate": 0.4,
+          "behindFoveate": 0.2,
+          "xrFoveation": 1
+        }
+      },
+      {
+        "id": "detail",
+        "name": "High detail",
+        "settings": {
+          "pagedExtSplats": false,
+          "pixelRatio": 2,
+          "lodSplatCount": 0,
+          "lodSplatScale": 1.5,
+          "lodRenderScale": 1,
+          "maxSh": 3,
+          "minSortIntervalMs": 0,
+          "sortRadial": true,
+          "minPixelRadius": 0,
+          "maxPixelRadius": 512,
+          "maxStdDev": 2.8284271247461903,
+          "minAlpha": 0.00196078431372549,
+          "coneFov0": 90,
+          "coneFov": 120,
+          "coneFoveate": 0.4,
+          "behindFoveate": 0.2,
+          "xrFoveation": 1
+        }
+      }
+    ]
+  },
+  "version": 1,
+  "title": "Verzasca River - Ponte dei Salti, Switzerland - Test of the Tour Suite",
+  "description": "\"Verzasca River - Ponte dei Salti, Switzerland\" by Paolo Tosolini (https://superspl.at/user/tosolini)\nSource: https://superspl.at/scene/fb6b9fae\nLicensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "cover": "",
+  "startScene": "cdc5bad2-bd55-495f-ae46-be9957fa819f",
+  "scenes": [
+    {
+      "collisionAuthoring": {
+        "volumes": [
+          {
+            "id": "dc34dd54-e5cc-4904-a152-c9453ef71f53",
+            "type": "box",
+            "operation": "add",
+            "position": [
+              0.9923977781293756,
+              0.4312891907478592,
+              3.953863659012618
+            ],
+            "rotation": [
+              1.061655674555162e-16,
+              -2.0926279112926296,
+              -1.8350950044413686e-16
+            ],
+            "size": [
+              9.077830923608067,
+              3,
+              4.000000000000001
+            ]
+          },
+          {
+            "id": "fcd2ce22-7c68-4bc1-8480-1730315c399a",
+            "type": "box",
+            "operation": "add",
+            "position": [
+              1.3917625960539342,
+              0.05928094335358942,
+              8.3723066649485
+            ],
+            "rotation": [
+              -2.728325993658324e-17,
+              0.2246700576958135,
+              -3.077823209939677e-18
+            ],
+            "size": [
+              4,
+              3,
+              8.043170815165332
+            ]
+          },
+          {
+            "id": "15975e1b-f3af-424d-941d-7deaeb6afcae",
+            "type": "box",
+            "operation": "add",
+            "position": [
+              14.793242346024167,
+              0.3510127733607282,
+              -3.470205671964896
+            ],
+            "rotation": [
+              -4.550627381042373e-17,
+              0.3807177521324149,
+              -8.76869550671272e-18
+            ],
+            "size": [
+              29.4947169494986,
+              3,
+              3.999999999999999
+            ]
+          },
+          {
+            "id": "910319b9-7cdf-492d-a507-64d802bb2e42",
+            "type": "box",
+            "operation": "add",
+            "position": [
+              33.232362246176905,
+              0.7637486700514493,
+              -12.003883660524336
+            ],
+            "rotation": [
+              -4.2103704008906763e-17,
+              0.35096360665133003,
+              -7.46521932752671e-18
+            ],
+            "size": [
+              12.421750509467216,
+              3.7330663112760387,
+              4
+            ]
+          },
+          {
+            "id": "dddcb5b0-8a9d-46aa-8f0b-8a5eba145f9c",
+            "type": "box",
+            "operation": "add",
+            "position": [
+              41.90718253885061,
+              1.2780965252917198,
+              -18.75683567682861
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              22.74470338369583,
+              6.458398481000338,
+              25.552884086249254
+            ]
+          },
+          {
+            "id": "0dadc6d7-4200-46f5-8dd9-e8ef3637b2ca",
+            "type": "ball",
+            "operation": "remove",
+            "position": [
+              10.53218515154135,
+              -0.9000687239566358,
+              -1.859458142758144
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.379278307978558,
+              0.379278307978558,
+              0.379278307978558
+            ]
+          }
+        ],
+        "options": {
+          "detail": 0.2,
+          "surface": "smooth",
+          "smoothing": 0.35,
+          "wallHeight": 6,
+          "ignoreTransparent": true,
+          "opacityCutoff": 0.39
+        }
+      },
+      "id": "cdc5bad2-bd55-495f-ae46-be9957fa819f",
+      "name": "scene",
+      "source": "assets/converted/483e60a7-af20-4a43-bdb8-7fc17e7e85df/source-lod.rad",
+      "thumbnail": "",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          3.141592653589793
+        ],
+        "scale": 1
+      },
+      "collider": "colliders/87573d3a-c345-4324-a96d-109332fffcf2.collision.glb",
+      "colliderTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "modes": [
+        "jumps",
+        "fly",
+        "explore"
+      ],
+      "entry": "start",
+      "walkStart": "start",
+      "viewpoints": [
+        {
+          "type": "orbit",
+          "orbit": {
+            "center": [
+              0,
+              1.7,
+              0
+            ],
+            "radius": 3
+          },
+          "id": "start",
+          "name": "Starting view",
+          "position": [
+            10.3110193712507,
+            -3.114536224346451,
+            4.820289760916353
+          ],
+          "rotation": [
+            0.35587716912190326,
+            -0.2746026147210967,
+            -3.141592653589793
+          ]
+        }
+      ],
+      "hotspots": []
+    }
+  ],
+  "pages": []
+}
